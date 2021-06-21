@@ -1,0 +1,42 @@
+h1{
+    background-color: #b6293b33;
+}
+.heroe{
+    background-color:blueviolet;
+    background-image: url(/img/bowl-and-pet-daities-on-green-background1.png);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center;
+    background-size: cover;
+    height: 400px;
+}
+h2{
+    color: #b6293b33;
+    font-size: 25px;
+    font-weight:900;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.fondo1{
+    background-color: #562b05;
+    background-size: cover;
+    color: white;
+}
+
+.fondo2{
+    background-color: black;
+    color: white;
+}
+.derecha{
+    text-align: right;
+}
+
+.fuenteGrande{
+    font-size: 50px;
+    text-align: right;
+}

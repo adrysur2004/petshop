@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <spam>Grandes ofertas en comederos</spam>
-    <spam>Español</spam>
-    <spam>ARG$</spam>
-
+    <link rel="stylesheet" href="estilo.css">
     <title>Front Cat & Dog</title>
 </head>
 
 <body>
     <header>
-
-        <img src="img/Cat.png" alt="gatito">
-        <h1>FrontCat&Dog</h1>
-        <img src="img/Dog.png" alt="perrito">
+        <p>Grandes ofertas en comederos</p>
+        <p>Español</p>
+        <p>ARG$</p>
+        
+        <h1><img src="img/Cat.png" alt="gatito">FrontCat&Dog<img src="img/Dog.png" alt="perrito"></h1>
+        
         <nav>
             <ul type="none">
                 <li><img src="img/pawprint 2.jpg" alt="patitas">Categorias</li>
@@ -25,19 +23,22 @@
                 <li><img src="img/pawprint 2.png" alt="patitas">Nosotros</li>
             </ul>
         </nav>
-        
+
     </header>
 
     <main>
-       
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png">
+
+        <section class="heroe">
+            <div class="fuenteGrande">¡Es un placer tenerte aquí!</div>
+            <p class="derecha">Comederos de descuento</p>
+            <p class="fuenteGrande">COMEDEROS</p>
+            <!--<img src="img/bowl-and-pet-daities-on-green-background 1.png">-->
         </section>
 
-        <section>
+        <section class="centrado">
             <img src="img/pawprint 1.png" alt="patitas">
-            <h2 >Productos Destacados</h2>
-            <p>Comederos  -  Accesorios  -  Comida</p>
+            <h2>Productos Destacados</h2>
+            <p>Comederos - Accesorios - Comida</p>
             <div>
                 <img src="img/churrasquito.png" alt="churrasquito">
                 <h3>Juguete Churrasquito</h3>
@@ -56,8 +57,25 @@
     </main>
 
     <footer>
-        <hr>
-        <p style="text-align: center;">Todos los derechos reservados Front End</p>
+        <div class="fondo1">
+            <img src="/img/Icono-localidad.png" alt="ubicación">
+
+            <p>Localidad</p>
+            <p>Calle - Provincia</p>
+
+            <img src="/img/Icono-telefono.png" alt="Teléfono">
+            <p>Teléfono</p>
+            <p>Número de teléfono</p>
+
+            <img src="/img/Icono-correo.png" alt="Email">
+            <p>Correo Electrónico</p>
+            <p>Dirección de correo</p>
+        </div>
+
+
+        <div class="fondo2">
+            Todos los derechos reservados Front End
+        </div>
     </footer>
 
 </body>
